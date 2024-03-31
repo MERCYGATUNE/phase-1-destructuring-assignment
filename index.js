@@ -1,6 +1,62 @@
-const farmAnimals = 'cow horse sheep pig chicken';
+// STRING 
+
+const farmAnimals = 'cow horse  sheep pig chicken';
+const animalSounds = {
+       moo:'cow',
+       neigh:'horse',
+       baa:'sheep',
+       oink:'pig',
+       cluck:'chicken'
+}
+const {moo,neigh,baa,oink,cluck}=animalSounds
+
+ console.log(animalSounds)
+
+ let farmAnimals2 = 'cow, ,sheep, pig,chicken';
+console.log(farmAnimals2)
+const tradAnimalname ={
+          bessie:'cow',
+          dolly: 'sheep',
+          babe:'pig',
+          little:'chicken'
+}
+   const {bessie,dolly,babe,little}= tradAnimalname
+
+  console.log(tradAnimalname)
+
+
+let farmAnimals3 = 'cow, ,sheep, pig,';
+console.log(farmAnimals3)
+let animalColour ={
+   blackAndWhite:'cow',
+   black:'sheep',
+   pink:'pig',
+}
+ const { blackAndWhite,black,pink}=animalColour
+
+console.log(animalColour)
+
+//  ARRAYS
+
+
 
 const colors = ['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet'];
+const [red, orange, yellow, green, blue, indigo, violet] = colors;  
+  console.log(colors)
+
+  
+   const colorsinLetter={ r:red ,  o:orange,y:yellow , g :green,  b :blue, indg :indigo, v :violet,}
+    
+   const{r,o,y,g,b,indg,v}=colorsinLetter
+   console.log(colorsinLetter)
+   
+     
+
+      
+      
+
+// OBJECTS
+
 
 const muppet = {
   muppetName: 'Miss Piggy',
@@ -9,6 +65,10 @@ const muppet = {
   job: 'Cast member of The Muppet Show',
   partner: 'Kermit'
 };
+ const{muppetName,color,song,job,partner}= muppet
+    console.log(muppet)
+
+
 
 const nestedMuppet = {
   nestedName: 'Kermit',
@@ -24,6 +84,21 @@ const nestedMuppet = {
   nestedJob: 'Host of The Muppet Show',
   nestedPartner: 'Miss Piggy'
 };
+
+
+  const end= {
+  song2: 'Moving Right Along',
+  song4: 'I Hope That Something Better Comes Along',
+  nestedJob: 'Host of The Muppet Show',
+  nestedPartner: 'Miss Piggy'
+  };
+      const{ song2,song4,nestedJob,nestedPartner}= end
+      console.log(end)
+
+    
+
+
+
 
 // Strings
 
